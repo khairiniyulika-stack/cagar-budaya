@@ -281,7 +281,7 @@ function openModal(idx) {
       <div class="modal-row"><span class="modal-label">Status</span><span class="modal-val">${statusBadge(d['Status'])}</span></div>
       <div class="modal-row"><span class="modal-label">Kategori</span><span class="modal-val">${tingkatBadge(d['Tingkat'])}</span></div>
       <div class="modal-row"><span class="modal-label">Lokasi</span><span class="modal-val">${d['Lokasi'] || '-'}</span></div>
-      <div class="modal-row"><span class="modal-label">No. SK</span><span class="modal-val">${d['No. SK'] || d['No.'] || '-'}</span></div>
+      <div class="modal-row"><span class="modal-label">No. SK</span><span class="modal-val">${d['No. SK'] || d['Aturan'] || '-'}</span></div>
       ${d['Sumber Gambar'] ? `<div class="modal-row"><span class="modal-label">Sumber foto</span><span class="modal-val" style="font-size:11px">${d['Sumber Gambar']}</span></div>` : ''}
     </div>
   `;
